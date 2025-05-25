@@ -195,7 +195,7 @@ export const determineMeasuringBoundary = async (
         case "kindergarten-full":
         case "school-full":
         case "church-full":
-        // case "pharmacy-full":
+        case "pharmacy-full":
         case "police-full":
         case "fire_station-full":
         case "library-full":

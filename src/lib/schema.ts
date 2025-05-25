@@ -414,9 +414,9 @@ const berlinMeasuringQuestions = baseMeasuringQuestionSchema.extend({
             z
                 .literal("church-full")
                 .describe("Church Question (Small+Medium Game)"),
-            // z
-            //     .literal("pharmacy-full")
-            //     .describe("Pharmacy Question (Samll+Medium Games)"),
+            z
+                .literal("pharmacy-full")
+                .describe("Pharmacy Question (Samll+Medium Games)"),
             z
                 .literal("police-full")
                 .describe("Police Station Question (Small+Medium Games)"),

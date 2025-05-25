@@ -105,7 +105,7 @@ export const determineGeoJSON = async (
 };
 
 export const locationFirstTag: {
-    [key in APILocations]: "amenity" | "tourism" | "leisure" | "diplomatic" | "water" | "railway";
+    [key in APILocations]: "amenity" | "tourism" | "leisure" | "diplomatic" | "water" | "railway" | "building";
 } = {
     aquarium: "tourism",
     hospital: "amenity",
@@ -119,7 +119,7 @@ export const locationFirstTag: {
     park: "leisure",
     school: "amenity",
     kindergarten: "amenity",
-    church: "amenity",
+    church: "building",
     lake: "water",
     pharmacy: "amenity",
     "police": "amenity",
