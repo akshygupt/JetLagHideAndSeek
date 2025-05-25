@@ -544,7 +544,7 @@ export const Map = ({ className }: { className?: string }) => {
                 />
                 {$highlightTrainLines && (
                     <TileLayer
-                        url={`https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=${import.meta.env.THUNDERFOREST_KEY}`}
+                        url={`https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=cf77911eaa8e4a5e80a6c54090ba44aa1`}
                         maxZoom={22}
                         minZoom={7}
                         noWrap
