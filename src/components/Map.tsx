@@ -40,7 +40,6 @@ import { LeafletFullScreenButton } from "./LeafletFullScreenButton";
 import { hiderifyQuestion } from "@/maps";
 import { holedMask, unionize } from "@/maps/geo-utils";
 import { MapPrint } from "./MapPrint";
-import 'dotenv/config'
 
 
 export const refreshMapData = (screen: boolean = true, map?: LeafletMap) => {
@@ -545,7 +544,7 @@ export const Map = ({ className }: { className?: string }) => {
                 />
                 {$highlightTrainLines && (
                     <TileLayer
-                        url={`https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=${process.env.THUNDERFOREST_KEY}`}
+                        url={`https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=${import.meta.env.THUNDERFOREST_KEY}`}
                         maxZoom={22}
                         minZoom={7}
                         noWrap
